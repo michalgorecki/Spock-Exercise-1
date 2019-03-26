@@ -1,3 +1,5 @@
+package app
+
 import spock.lang.Specification
 
 class EmailValidatorTest extends Specification {

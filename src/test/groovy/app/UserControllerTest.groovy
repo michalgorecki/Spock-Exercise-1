@@ -1,6 +1,8 @@
+package app
+
+
 import spock.lang.Specification
 import spock.lang.Subject
-
 
 class UserControllerTest extends Specification {
 
@@ -10,7 +12,7 @@ class UserControllerTest extends Specification {
     UserController controller
 
 
-    //TODO check if a proper method in DatabasePersister is called
+    //TODO write a test case to check if a proper method in DatabasePersister is called
     def "should try to save user to database"() {
         given:
         db = Mock()
@@ -21,8 +23,8 @@ class UserControllerTest extends Specification {
         // TODO implement then
     }
 
-    //TODO figure out how to test getGmailUsers() without connecting to database
-    def "should get gmail users correctly"() {
+    //TODO write a test case for getGmailUsers() without connecting to database
+    def "should retrieve gmail users correctly"() {
         given:
         db = Stub()
         controller = new UserController(db)

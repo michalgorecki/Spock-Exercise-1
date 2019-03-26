@@ -1,3 +1,5 @@
+package app;
+
 public class User {
 
     private String name;
@@ -18,7 +20,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "app.User{" +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 '}';
