@@ -11,11 +11,11 @@ class CalculatorTest extends Specification {
     Calculator calculator
 
 
-    //TODO write a parameterized test case in order to check if the results are ok
+    //TODO write a parameterized test case to check if the results are ok
     @Unroll
     def "should add two numbers correctly"() {
         expect:
-
+        // TODO implement expect
         where:
         // TODO implement where
     }

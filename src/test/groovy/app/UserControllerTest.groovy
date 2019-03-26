@@ -23,7 +23,7 @@ class UserControllerTest extends Specification {
         // TODO implement then
     }
 
-    //TODO write a test case for getGmailUsers() without connecting to database
+    //TODO write a test case to check what getGmailUsers() returns, but mock database persister
     def "should retrieve gmail users correctly"() {
         given:
         db = Stub()
